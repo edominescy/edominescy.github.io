@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>AS3 Video Player - Help Page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="Contents/Layout.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="header-stretch">
+		<div id="header" class="container">
+                     <h1><a href="#">{e} Creativity</a></h1>
+		</div>
+	</div>
+	
+	<div id="main-container" class="container">
+
+	      <div id="content-top">
+                   <p><span class="style4">List of Contents</span></p>
+                   <ul>
+                       <li><a href="Contents/FlashVars.html" target="_self">Embedding the swf file</a></li>
+                       <li><a href="Contents/Playlist.html" target="_self">Creating playlist items</a></li>
+                       <li><a href="Contents/Main-Features.html" target="_self">Video Player AS3 - Main Features</a></li>
+                   </ul>
+                   
+                   <div id="main-content">
+                        <p><span class="style4">Overview</span></p>
+                        <p>The Video Player is both Elegant and Stylish with some thoughtful features. All of the functionalities are optional and can be set according to your own needs.
+                        One of the most exciting new feature is the slideshow thumbs which adds a nice touch to the way you deliver your content.</p>
+                        <p>With no Flash knowledge required this video player is easy to setup and simple to use. Included in this help file is the embed code for embbedding the player
+                        into your html page as well as a list of all the xml settings you need to help you get started.</p>
+                        <br />
+                        <p>The package you purchased contains the following:</p>
+                        <ul>
+                            <li><span class="style5">1 - Source FLA:</span> original source files, you dont need to upload any of these files to your server. Use these to change the code or edit graphics, Note: a new swf file will be published to the Published SWF - Folder</li>
+                            <li><span class="style5">2 - Published SWF:</span> published swf file, html file, xml folder, js code for embedding the swf file, these are the files you need to upload to your server.</li>
+                            <li><span class="style5">3 - PSD:</span> contains the photoshop document for the logo</li>
+                            <li><span class="style5">4 - Help File:</span> contains the help documents</li>
+                        </ul>
+                   </div>
+              </div>
+              
+              <div id="content-bottom" class="container">
+                   <p><span class="style4">XML overview</span></p>
+                   <p>The xml file that comes with this package has a set number of settings. The xml settings allows you to setup the player the way you want it. Below is an overall structure of the xml settings:</p>
+                   <table width="960" id="table" border="0" cellpadding="5" cellspacing="0">
+                        <tr id="table_head" valign="top">
+                             <td width="100" height="20">Variable name</td>
+                             <td width="100">Variable type</td>
+                             <td width="100">Value range</td>
+                             <td width="660">Description</td>
+                        </tr>
+
+                        <tr id="table_sub" valign="top">
+                             <td colspan="4">XML Settings</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                             <td>width</td>
+                             <td>Number</td>
+                             <td></td>
+                             <td>Width of the video player area in px.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                             <td>height</td>
+                             <td>Number</td>
+                             <td></td>
+                             <td>Height of the video player area in px.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                             <td>textColor</td>
+                             <td>Hex-Decimal</td>
+                             <td>0x000000</td>
+                             <td>This is the text color for the video title, this is a hex-decimal number and must be written as shown in the &quot;value range&quot; column.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                             <td>dropShadow</td>
+                             <td>Boolean</td>
+                             <td>true/false</td>
+                             <td>Set to true creates a dropShadow for the title text.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                             <td>playerSkin</td>
+                             <td>String</td>
+                             <td>black/white</td>
+                             <td>This video player comes with two skins, black and white, to change the skin just specify which skin you want to use. If left blank the default black skin will be used.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                             <td>timeText</td>
+                             <td>Hex-Decimal</td>
+                             <td>0x000000</td>
+                             <td>This is the text color for the video time text, this is a hex-decimal number and must be written as shown in the &quot;value range&quot; column.</td>
+                        </tr>
+
+                        <tr id="table_row" valign="top">
+                             <td>autoPlay</td>
+                             <td>Boolean</td>
+                             <td>true/false</td>
+                             <td>If you want the video player to start playing automatically, then set this to true, otherwise set this to false.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                             <td>initVolume</td>
+                             <td>Number</td>
+                             <td>0 - 1</td>
+                             <td>The default starting volume. Enter any number between 0 and 1. Note: the start volume will be overwritten once the end user clicks on the volume control.</td>
+                        </tr>
+
+                        <tr id="table_row" valign="top">
+                             <td>aspectRatio</td>
+                             <td>Number</td>
+                             <td>1 - 3</td>
+                             <td>This is the start size of the video, options are as follows 1:Normal size, 2:Stretch, 3:Full size.</td>
+                        </tr>
+
+                        <tr id="table_row" valign="top">
+                             <td>listeners</td>
+                             <td>String</td>
+                             <td></td>
+                             <td>listeners relates to the keyboard events that control some of the players functionality. To learn more about the listeners just go to <b>&quot;Video Player AS3 - Main Features&quot;</b> in the List of Contents.</td>
+                        </tr>
+
+                        <tr id="table_row" valign="top">
+                            <td>copyright</td>
+                            <td>String</td>
+                            <td></td>
+                            <td>Copyright is frequently used on site's to protect intellectual property.</td>
+                        </tr>
+
+                        <tr id="table_row" valign="top">
+                            <td>notice</td>
+                            <td>String</td>
+                            <td></td>
+                            <td>Use this to display information about your site, such as company name or contact us.</td>
+                        </tr>
+            
+                        <tr id="table_row" valign="top">
+                            <td>link</td>
+                            <td>String</td>
+                            <td></td>
+                            <td>This is an external link, which will re-direct the user to your site when they click on the notice.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                            <td>useControls</td>
+                            <td>Boolean</td>
+                            <td>true/false</td>
+                            <td>This refers to the slideshow controls for the thumbs. Set to true the controls will be visible on the screen when the thumbs come up.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                            <td>hide</td>
+                            <td>Boolean</td>
+                            <td>true/false</td>
+                            <td>This refers to the playlist and is only needed if autoPlay is set to false. if set to true the playlist will not be visible once the player has been loaded in.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                            <td>hideDelay</td>
+                            <td>Number</td>
+                            <td></td>
+                            <td>This is the timer for the thumbs slideshow, and is used to skip to the next row of thumbs onTimerComplete.</td>
+                        </tr>
+                        
+                        <tr id="table_row" valign="top">
+                            <td>autoStart</td>
+                            <td>Boolean</td>
+                            <td>true/false</td>
+                            <td>This refers to the thumbs slideshow, set to true starts the timer for the slideshow.</td>
+                        </tr>
+                   </table>
+
+                   <p><span class="style1">Copyright notices</span></p>
+                   <p>You may use this file in any number of projects, either commercial or non-commercial. However you may not resell this file as is, or as part of a package, neither may you distribute this file freely, nor 'share' it with others who have not bought an original copy from <a href="http://activeden.net/user/Elevan">activeden.net</a>. You may though use this file as part of a custom project (e.g. website) for which you earn a payment.</p>
+              </div>
+	</div>
+
+        <div id="footer-stretch">
+		<div id="footer" class="container">
+		     <p>Copyright &copy; 2010 - <a href="http://activeden.net/user/Elevan">E-levan</a> - All rights reserved</p>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

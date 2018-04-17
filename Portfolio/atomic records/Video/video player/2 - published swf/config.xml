@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+      <options>
+              <player width="700" height="420" />
+              <title textColor="0xFFFFFF" dropShadow="true" />
+              <controlsBar playerSkin="white" timeText="0x71727D" />
+              <keyboardEvents listeners="spaceKey|ctrlKey|shiftKey|upArrow|downArrow|enterKey" />
+              <playback buffer="10" autoPlay="false" initVolume="0.7" looping="false" aspectRatio="3" />
+              <contextMenu copyright="Video Player V2 - Copyright © 2011" notice="Author: E-levan" link="http://activeden.net/user/Elevan" />
+              <watermark visible="true" url="images/logo.png" link="http://activeden.net" position="BR" />
+              <playlist useControls="true" hide="false" hideDelay="5" autoStart="false" />
+      </options>
+
+      <content>
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb1.jpg</thumbPath>
+                      <imagePath>images/cover1.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb2.jpg</thumbPath>
+                      <imagePath>images/cover2.png</imagePath>
+                      <message><![CDATA[This video can only be viewed on youtube]]></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb3.jpg</thumbPath>
+                      <imagePath>images/cover3.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb1.jpg</thumbPath>
+                      <imagePath>images/cover1.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb2.jpg</thumbPath>
+                      <imagePath>images/cover2.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb3.jpg</thumbPath>
+                      <imagePath>images/cover3.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb1.jpg</thumbPath>
+                      <imagePath>images/cover1.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb2.jpg</thumbPath>
+                      <imagePath>images/cover2.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb3.jpg</thumbPath>
+                      <imagePath>images/cover3.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb1.jpg</thumbPath>
+                      <imagePath>images/cover1.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb2.jpg</thumbPath>
+                      <imagePath>images/cover2.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb3.jpg</thumbPath>
+                      <imagePath>images/cover3.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+               
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb1.jpg</thumbPath>
+                      <imagePath>images/cover1.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb2.jpg</thumbPath>
+                      <imagePath>images/cover2.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+
+               <video>
+                      <videoPath>media/videos/video1.flv</videoPath>
+                      <thumbPath>media/thumb3.jpg</thumbPath>
+                      <imagePath>images/cover3.png</imagePath>
+                      <message></message>
+                      <title><![CDATA[Lorem ipsum te per inani quodsi]]></title>
+                      <desc><![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.]]></desc>
+               </video>
+      </content>
+</data>

@@ -1,0 +1,31 @@
+a:link {
+	color: #06E9F3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #66FFFF;
+}
+
+p {
+	color: #F0F0F0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 38px;
+	font-weight: bold;
+	color: #FFFFFF;
+	display: block;
+}
+
+h2 {
+	font-size: 18px;
+	color: #5FBEFE;
+	display: block;
+}
+
+.colored {
+	color: #4A92B4;
+	font-weight: bold;
+}

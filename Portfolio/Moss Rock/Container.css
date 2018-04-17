@@ -1,0 +1,64 @@
+@charset "utf-8";
+.Container {
+	background-color: #FFFFFF;
+	width: 960px;
+	position: absolute;
+	left: 269px;
+	top: 1px;
+}
+.Footer {
+	background-color: #FFF;
+	width: 960px;
+	position: absolute;
+	left: 270px;
+	top: 970px;
+	height: 15px;
+}
+.Header {
+	background-color: #FFF;
+	height: 260px;
+	width: 960px;
+	position: absolute;
+	left: 270px;
+	top: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(newlogo.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: top;
+}
+.fest {
+	float: right;
+	height: 30px;
+	width: 100px;
+	margin-top: -32px;
+	margin-left: 100px;
+}
+
+.spacenav {
+	height: 30px;
+	width: 100px;
+	margin-left: 350px;
+	margin-top: 30px;
+}
+.spacenav2 {
+	height: 30px;
+	width: 100px;
+	vertical-align: top;
+	float: left;
+	margin-top: -32px;
+}
+
+
+.Bodystyle {
+	background-color: #FFF;
+	width: 860px;
+	position: absolute;
+	left: 270px;
+	top: 255px;
+	background-image: url(bodybgimg.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-attachment: scroll;
+}

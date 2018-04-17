@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Embedding the swf file</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="Layout.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="header-stretch">
+		<div id="header" class="container">
+                     <h1><a href="#">{e} Creativity</a></h1>
+		</div>
+	</div>
+
+	<div id="main-container" class="container">
+
+	      <div id="content-top">
+                   <p><span class="style4">List of Contents</span></p>
+                   <ul>
+                       <li><a href="Playlist.html" target="_self">Creating playlist items</a></li>
+                       <li><a href="../Help.html" target="_self">Video Player AS3 - Homepage</a></li>
+                       <li><a href="Main-Features.html" target="_self">Video Player AS3 - Main Features</a></li>
+                   </ul>
+              </div>
+              
+              <div id="main-content">
+                   <p><span class="style4">FlashVars</span></p>
+                   <pre>
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot; lang=&quot;en&quot;>
+     &lt;head&gt;
+          &lt;title&gt;Page Title&lt;/title&gt;
+          &lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+          &lt;script type=&quot;text/javascript&quot; src=&quot;swfobject.js&quot;&gt;&lt;/script&gt;
+          &lt;script type=&quot;text/javascript&quot;&gt;
+               var flashvars = {};
+                   flashvars.xmlFile = &quot;data.xml&quot;;
+               var params = {};
+                   params.scale = &quot;noscale&quot;;
+                   params.wmode = &quot;transparent&quot;;
+                   params.allowfullscreen = &quot;true&quot;;
+                   params.salign = &quot;tl&quot;;
+                   params.bgcolor = &quot;e8e8e8&quot;;
+               swfobject.embedSWF(&quot;preview.swf&quot;, &quot;flashcontent&quot;, &quot;700&quot;, &quot;420&quot;, &quot;9&quot;, false, flashvars, params, null);
+          &lt;/script&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+          &lt;div id=&quot;container&quot;&gt;
+              &lt;div id=&quot;flashcontent&quot; class=&quot;flashcontent&quot; style=&quot;height:376;&quot;&gt;&lt;p align=&quot;center&quot;&gt;This content requires the Adobe Flash Player.&lt;br /&gt;&lt;a href=&quot;http://www.adobe.com/go/getflashplayer&quot;&gt;
+                           &lt;img src=&quot;http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif&quot; alt=&quot;Get Adobe Flash player&quot; /&gt;&lt;br /&gt;
+                      &lt;a href=http://www.macromedia.com/go/getflash/&gt;Get Flash&lt;/a&gt;&lt;/p&gt;
+                 &lt;/div&gt;
+          &lt;/div&gt;
+      &lt;/body&gt;
+&lt;/html&gt;
+                   </pre>
+                   
+              </div>
+              
+              <div id="content-bottom" class="container">
+                   <p><span class="style4">FlashVars Overview</span></p>
+                   <table width="960" id="table" border="0" cellpadding="5" cellspacing="0">
+                        <tr id="table_head" valign="top">
+                            <td width="100" height="20">Variable name</td>
+                            <td width="200"><div align="center">Parameters</div></td>
+                            <td width="660">Description</td>
+                        </tr>
+
+                        <tr id="table_row" valign="top">
+                            <td>wmode</td>
+                            <td><div align="center">Transparent, Opaque</div></td>
+                            <td>This is used to change the apperance of the swf files background.</td>
+                        </tr>
+
+                        <tr id="table_row" valign="top">
+                            <td>allowFullScreen</td>
+                            <td><div align="center">true/false</div></td>
+                            <td>Set this to true to enable viewing in fullscreen.</td>
+                        </tr>
+        
+                        <tr id="table_row" valign="top">
+                            <td>xmlFile</td>
+                            <td><div align="center">xml file</div></td>
+                            <td>The direct path to the xml file. Note: you only need to include this in the FlashVars if you are wanting to change the name of the xml file.</td>
+                        </tr>
+                   </table>
+
+                   <p><span class="style1">Copyright notices</span></p>
+                   <p>You may use this file in any number of projects, either commercial or non-commercial. However you may not resell this file as is, or as part of a package, neither may you distribute this file freely, nor 'share' it with others who have not bought an original copy from <a href="http://activeden.net/user/Elevan">activeden.net</a>. You may though use this file as part of a custom project (e.g. website) for which you earn a payment.</p>
+              </div>
+	</div>
+
+        <div id="footer-stretch">
+		<div id="footer" class="container">
+		     <p>Copyright &copy; 2010 - <a href="http://activeden.net/user/Elevan">E-levan</a> - All rights reserved</p>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

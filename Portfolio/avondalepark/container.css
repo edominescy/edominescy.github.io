@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.container {
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
+.subtitle {
+	text-align: center;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Avondaleparktext {
+	width: 810px;
+	padding-right: 50px;
+	padding-left: 100px;
+	background-attachment: scroll;
+	background-image: url(bodybg.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	bottom: 150px;
+}
+.events {
+	text-align: center;
+	width: 660px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 150px;
+	padding-left: 150px;
+	background-attachment: scroll;
+	background-image: url(bodybg.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+
+.header {
+	background-color: #FFF;
+	height: 158px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(header.gif);
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 12px;
+	background-position: -1px;
+	background-repeat: no-repeat;
+	margin-top: -30px;
+}
+.Headersubs {
+	padding-right: 10px;
+	font-size: 15px;
+	padding-left: 192px;
+	float: left;
+	margin-top: -12px;
+}
+
+.bodystyle {
+	background-color: #FFF;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-attachment: fixed;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	font-family: 'Kreon', serif;
+	margin-top: -15px;
+	margin-bottom: 50px;
+}
+.AvondaleParkTitle {
+	width: 810px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+}
+.column1 {
+	width: 330px;
+	margin-top: -16px;
+}
+.copyright {
+	height: 15px;
+	width: 600px;
+	text-align: center;
+	background-position: bottom;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 75px;
+}
+
+
+
+.subdiv {
+	width: 480px;
+	float: left;
+	position: fixed;
+	padding-left: 100px;
+}
+.bg {
+	background-attachment: scroll;
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-bottom: 3px;
+	clip: rect(auto,auto,auto,auto);
+}
+
+.column2 {
+	float: right;
+	width: 259px;
+	margin-right: 50px;
+}
+
+.footer {
+	background-color: #d2e2cf;
+	height: 100px;
+	width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -50px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.headersubfont {
+	padding-left: 25px;
+	float: left;
+	padding-right: 10px;
+	font-size: 15px;
+	margin-top: -12px;
+}
