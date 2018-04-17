@@ -3,6 +3,10 @@
 	font-family: Cinzel;
 	src: url('CinzelDecorative-Regular.ttf');
 }
+@font-face {
+	font-family: Kreon;
+	src: url('Kreon-Regular.ttf');
+}
 .container {
 	background-color: #FFF;
 	margin-right: auto;
@@ -70,7 +74,7 @@
 	background-image: none;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	font-family: 'Kreon', serif;
+	font-family: 'Kreon';
 	margin-top: 5px;
 	margin-bottom: 60px;
 }
