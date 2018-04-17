@@ -1,11 +1,15 @@
 @charset "utf-8";
 @font-face {
-	font-family: 'Viga';
-	src: url('Viga-Regular.ttf') format('truetype');
-	font-family: 'Montserrat';
-	src: url('Montserrat-Bold.ttf') format('truetype');
-	font-family: 'Voltaire';
-	src: url('Voltaire-Regular.ttf') format('truetype');
+	font-family: Viga;
+	src: url('Viga-Regular.ttf');
+}
+@font-face {
+	font-family: Montserrat;
+	src: url('Montserrat-Bold.ttf');
+}
+@font-face {
+	font-family: Voltaire;
+	src: url('Voltaire-Regular.ttf');
 }
 .container {
 	background-color: #CCC;
