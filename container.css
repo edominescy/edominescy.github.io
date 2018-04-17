@@ -3,7 +3,7 @@
 	font-family: 'Voltaire';
 	src: url('Voltaire-Regular.ttf') format('truetype');
 	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.ttf') format('truetype');
+	src: url('Montserrat-Bold.ttf') format('truetype');
 }
 .container {
 	background-color: #CCC;
