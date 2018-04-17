@@ -100,7 +100,7 @@
 .bg {
 	background-attachment: scroll;
 	background-image: url(bg.gif);
-	max-height: 20px;
+	height: 20px;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	margin-bottom: 3px;
