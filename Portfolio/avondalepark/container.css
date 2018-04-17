@@ -87,7 +87,7 @@
 	background-position: bottom;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 75px;
+	padding-top: 25px;
 }
 
 
@@ -119,6 +119,7 @@
 	width: 860px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: -50px;
 	padding-right: 50px;
 	padding-left: 50px;
 }
