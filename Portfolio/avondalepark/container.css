@@ -104,10 +104,9 @@
 .bg {
 	background-attachment: scroll;
 	background-image: url(bg.gif);
-	height: 15px;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	margin-bottom: 3px;
+	margin-bottom: 15px;
 	clip: rect(auto,auto,auto,auto);
 }
 
