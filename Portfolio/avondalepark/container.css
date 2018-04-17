@@ -100,6 +100,7 @@
 .bg {
 	background-attachment: scroll;
 	background-image: url(bg.gif);
+	max-height: 20px;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	margin-bottom: 3px;
@@ -114,8 +115,8 @@
 
 .footer {
 	background-color: #d2e2cf;
-	background-size: 860px 15px;
-	max-height: 15px;
+	height: 25px;
+	width: 860px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 50px;
