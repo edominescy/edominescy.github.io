@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+	font-family: Cinzel;
+	src: url('CinzelDecorative-Regular.ttf');
+}
 .container {
 	background-color: #FFF;
 	margin-right: auto;
@@ -43,7 +47,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	background-image: url(header.gif);
-	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'Cinzel';
 	font-size: 12px;
 	background-position: -1px;
 	background-repeat: no-repeat;
@@ -100,7 +104,7 @@
 .bg {
 	background-attachment: scroll;
 	background-image: url(bg.gif);
-	height: 20px;
+	height: 15px;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	margin-bottom: 3px;
