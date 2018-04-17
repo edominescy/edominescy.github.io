@@ -4,6 +4,8 @@
 	src: url('Voltaire-Regular.ttf') format('truetype');
 	font-family: 'Montserrat';
 	src: url('Montserrat-Bold.ttf') format('truetype');
+	font-family: 'Viga';
+	src: url('Viga-Regular.ttf') format('truetype');
 }
 .container {
 	background-color: #CCC;
@@ -45,8 +47,8 @@
 	margin-left: auto;
 	padding-right: 150px;
 	padding-left: 150px;
-	font-family: 'Viga', sans-serif;
-	font-family: 'Montserrat', 10px;
+	font-family: 'Viga';
+	font-family: 'Montserrat', 9px;
 	font-family: 'Voltaire';
 	float: left;
 }
