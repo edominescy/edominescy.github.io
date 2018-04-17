@@ -1,9 +1,11 @@
 @charset "utf-8";
 @font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.ttf') format('truetype');
 	font-family: 'Voltaire';
 	src: url('Voltaire-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Regular.ttf') format('truetype');
 }
 .container {
 	background-color: #CCC;
