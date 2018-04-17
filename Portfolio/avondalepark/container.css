@@ -115,6 +115,7 @@
 .footer {
 	background-color: #d2e2cf;
 	background-size: 860px 15px;
+	max-height: 15px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 50px;
