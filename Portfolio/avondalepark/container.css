@@ -110,7 +110,7 @@
 	background-image: url(bg.gif);
 	background-repeat: no-repeat;
 	background-position: bottom;
-	margin-bottom: -15px;
+	background-size: cover;
 	clip: rect(auto,auto,auto,auto);
 }
 
