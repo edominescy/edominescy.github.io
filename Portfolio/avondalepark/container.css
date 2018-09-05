@@ -89,7 +89,6 @@
 	margin-top: -16px;
 }
 .copyright {
-	height: 15px;
 	width: 600px;
 	text-align: center;
 	background-position: bottom;
@@ -97,7 +96,49 @@
 	margin-left: auto;
 }
 
+.historytext {
+	background-image: url(bodybgspd.png);
+	background-position: bottom;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	margin-bottom: 0px;
+}
 
+.msfancy {
+	float: left;
+	padding-right: 20px;
+}
+
+.msfancytext {
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 800px;
+}
+
+.spring {
+	float: right;
+	padding-left: 20px;
+}
+
+.Kingtext {
+	width: 800px;
+	padding-left: 85px;
+	padding-top: 30px;
+}
+
+.villa {
+	float: left;
+	padding-right: 20px;
+}
+
+.villatext {
+	width: 800px;
+	padding-right: 20px;
+	padding-top: 35px;
+}
 
 .subdiv {
 	width: 480px;
@@ -132,6 +173,18 @@
 	padding-right: 75px;
 	padding-left: 50px;
 }
+
+.footerh {
+	background-color: #d2e2cf;
+	height: 29px;
+	width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 36px;
+	padding-right: 75px;
+	padding-left: 50px;
+}
+
 .headersubfont {
 	padding-left: 25px;
 	float: left;
@@ -140,6 +193,3 @@
 	margin-top: -12px;
 }
 
-.msfancy {
-	float: left;
-}
