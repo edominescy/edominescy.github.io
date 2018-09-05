@@ -1,33 +1,59 @@
 @charset "utf-8";
+
+@font-face {
+	font-family: 'Rokkitt', serif;
+	src: url('Rokkitt-Medium.ttf');
+}
+
 .Container {
 	background-color: #FFFFFF;
-	width: 960px;
+	width: 860px;
 	position: absolute;
-	left: 269px;
-	top: 1px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .Footer {
-	background-color: #FFF;
-	width: 960px;
+	width: 860px;
 	position: absolute;
-	left: 270px;
-	top: 970px;
-	height: 15px;
 }
 .Header {
-	background-color: #FFF;
-	height: 260px;
-	width: 960px;
-	position: absolute;
-	left: 270px;
-	top: 1px;
-	margin-right: auto;
+	background-color: #c4b7bf;
 	margin-left: auto;
-	background-image: url(newlogo.png);
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: top;
+	margin-right: auto;
+	width: 860px;
+	height: 200px;
 }
+
+.boulderimg {
+	float: left;
+	padding-right: 20px;
+}
+
+.mr {
+	padding-top: 50px;
+	color: #000;
+}
+
+.pres {
+	color: #000;
+	margin-top: -10px;
+	padding-bottom: 20px;
+}
+
+.headimg {
+	width: 860px;
+	float: left;
+}
+
+.divider {
+
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-left: auto;
+	margin-right: auto;
+	width: 860px;
+}
+
 .fest {
 	float: right;
 	height: 30px;
@@ -55,10 +81,16 @@
 	background-color: #FFF;
 	width: 860px;
 	position: absolute;
-	left: 270px;
-	top: 255px;
+	margin-left: auto;
+	margin-right: auto;
 	background-image: url(bodybgimg.jpg);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	background-attachment: scroll;
+}
+
+.body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
