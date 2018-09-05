@@ -111,7 +111,7 @@
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
-	margin-top: 0px;
+	margin-top: -20px;
 	clip: rect(auto,auto,auto,auto);
 }
 
@@ -123,11 +123,11 @@
 
 .footer {
 	background-color: #d2e2cf;
-	height: 50px;
+	height: 30px;
 	width: 860px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: -75px;
+	margin-top: -30px;
 	padding-bottom: 20px;
 	padding-right: 75px;
 	padding-left: 50px;
