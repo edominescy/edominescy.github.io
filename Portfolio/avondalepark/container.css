@@ -7,6 +7,26 @@
 	font-family: Kreon;
 	src: url('Kreon-Regular.ttf');
 }
+
+a:link {
+	color: #00460b;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #CCC;
+}
+
+a:active {
+	text-decoration: none;
+}
+
 .container {
 	background-color: #FFF;
 	margin-right: auto;
@@ -153,7 +173,8 @@
 	background-position: bottom;
 	background-size: cover;
 	margin-top: -20px;
-	clip: rect(auto,auto,auto,auto);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .column2 {
@@ -181,6 +202,17 @@
 	margin-right: auto;
 	margin-left: auto;
 	padding-bottom: 36px;
+	padding-right: 75px;
+	padding-left: 50px;
+}
+
+.footere {
+	background-color: #d2e2cf;
+	height: 29px;
+	width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -11px;
 	padding-right: 75px;
 	padding-left: 50px;
 }
