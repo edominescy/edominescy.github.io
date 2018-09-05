@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: Carter;
+	src: url('CarterOne.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Bold.ttf');
+	font-weight: 700;
+}
+
+.opener {
+	font-family: Carter;
+	font-size: 20px;
+}
+
+a:link {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: #666;
+}
+.socialmedia {
+	float: right;
+	width: 100px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+a:hover {
+	text-decoration: none;
+	color: #CCC;
+}
+a:active {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+.bodypadding {
+	width: 500px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
