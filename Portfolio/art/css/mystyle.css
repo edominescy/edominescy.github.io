@@ -1,0 +1,136 @@
+		body {
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			background-attachment: fixed;
+		}
+		header {
+			text-align: center;
+		}
+		#menu {
+			text-align: center;
+		}
+		li {
+			display: inline;
+			margin-right: 40px;
+			font-family: 'Roboto Slab', serif;
+		}
+		#home {
+			display: block;
+			position: relative;
+		}
+		#homeimg{
+			position: relative;
+			height: 800px;
+		}
+		#text{
+			position: absolute;
+			bottom: 0px;
+			right: 1em;
+			width:500px;
+			font-size: 400%;
+			font-family: 'Roboto Slab', serif;
+		}
+		#gallery {
+			text-align: center;
+			display: none;
+		}
+		div.img {
+			width: 176px;
+			padding: 2px;
+			margin-bottom: 10px;
+			margin-right: 10px;
+			float: left;
+			text-align: center;
+		}
+		div.img:hover {
+			border: 1px solid #777;
+		}
+		div.img2 {
+			width: 176px;
+			padding: 2px;
+			margin-bottom: 10px;
+			margin-right: 10px;
+			float: right;
+			text-align: center;
+		}
+		div.img2:hover {
+			border: 1px solid #777;
+		}
+		div.imgsq{
+			width: 150px;
+			margin-right: -6px;
+			margin-bottom: 10px;
+			float:left;
+			vertical-align: bottom left;
+		}
+		#tetrissq{
+			alignment: bottom left;
+		}
+		a {
+			color:#000000;
+
+		}
+		a:hover, a.on{
+			color: #666666;
+		}
+		h5 {
+			text-align: center;
+			font-family: 'Assistant', sans-serif;
+			font-size: 150%;
+			text-transform: uppercase;
+			border: outset #FFFFFF;
+			padding: 20px;
+			height: 75px;
+			width: 275px;
+			border-radius: 10px;
+			-moz-border-radius:10px;
+			-webkit-border-radius:10px;
+			margin: auto;
+		}
+		#About {
+			margin: auto;
+			display: none;
+			font-family: 'Ubuntu Condensed', sans-serif;
+		}
+		#aboutinfo {
+			font-family: 'Ubuntu Condensed', sans-serif;
+			font-size: 100%;
+			text-align: left;
+			position: relative;
+		}
+		div.self {
+			text-align: center;
+			position: relative;
+		}
+		#Contact {
+			font-family: 'Ubuntu Condensed', sans-serif;
+			display: none;
+		}
+		.cform {
+			margin: auto;
+		}
+		legend{
+			text-align: center;
+		}
+		#Map{
+			display: none;
+		}
+		#Mappage{
+			display: none;
+			text-align: center;
+			height: 50%;
+			width: 50%;
+			-moz-box-shadow:5px 5px 5px #666;
+			-webkit-box-shadow:5px 5px 5px #666;
+			box-shadow: 5px 5px 5px #666;
+			margin: auto;
+		}
+		#ReadMe {
+			text-align: center;
+		}
+		footer{
+			font-family: 'Ubuntu Condensed', sans-serif;
+		}
+		#footimg{
+			float: right;
+		}

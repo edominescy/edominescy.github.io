@@ -1,0 +1,641 @@
+@charset "UTF-8";
+@keyframes swinging{
+        0%{transform: rotate(0deg);}
+        50%{transform: rotate(-1deg)}
+        100%{transform: rotate(0deg);}
+    }
+@keyframes buttonswing{
+      0%{transform: rotate(1deg);}
+      50%{transform: rotate(-1deg);}
+      100%{transform: rotate(1deg);}
+    }
+
+@keyframes hoverswing{
+      0%{transform: rotate(1deg);}
+      50%{transform: rotate(-1deg);}
+      100%{transform: rotate(1deg);}
+    }
+
+.font-face {
+	font-family: Ubuntu;
+	src: url("Ubuntu-Regular.ttf");
+}
+
+.font-face{
+	font-family: Arvo;
+	src: url("Arvo-Regular.ttf");
+}
+
+a:link {
+	color: #dfdfdf;
+	text-decoration: none;
+}
+
+a:visited {
+		color: #898989;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #666666;
+	text-decoration: underline;
+}
+
+a.button:link {
+	animation-play-state: paused;
+}
+
+a.button .projectbutton:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
+a.button .aboutbutton:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
+a.button .resumebutton:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
+a.button .homecloud:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
+a.button .aboutmenu:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
+a.button .resumemenu:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
+a.button .projectsmenu:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
+.projectnavlink {
+	color: #dfdfdf;
+	font-size: 24px;
+	position: absolute;
+	z-index: 1;
+	top: 1050px;
+	left: 590px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: buttonswing 5s ease-in-out forwards infinite;
+    animation: buttonswing 5s ease-in-out forwards infinite;
+}
+
+.aboutnavlink {
+	color: #dfdfdf;
+	font-size: 24px;
+	position: absolute;
+	z-index: 1;
+	top: 1058px;
+	left: 905px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: buttonswing 5s ease-in-out forwards infinite;
+    animation: buttonswing 5s ease-in-out forwards infinite;
+
+}
+
+.resumenavlink {
+	color: #dfdfdf;
+	font-size: 24px;
+	position: absolute;
+	z-index: 1;
+	top: 1080px;
+	left: 1215px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: buttonswing 5s ease-in-out forwards infinite;
+    animation: buttonswing 5s ease-in-out forwards infinite;
+}
+
+.body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cloudstring {
+	width: 99px;
+	height: 337px;
+	margin-top: -10px;
+	float: left;
+	padding-left: 480px;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.name {
+	float: left;
+	color: #dfdfdf;
+	margin-left: -40px;
+	padding-top: 40px;
+	padding-right: 72px;
+	text-align: justify;
+}
+
+.firstletter {
+	float: left;
+	font-size: 48px;
+}
+
+.otherletter {
+	float: right;
+	font-size: 36px;
+	padding-top: 12px;
+}
+
+.first {
+	float: left;
+}
+
+.last {
+	float: right;
+}
+
+.titles{
+	font-size: 24px;
+	color: #fdfdfd;
+	float: left;
+	margin-left: -38px;
+}
+
+.home {
+	position: relative;
+	width: 960px;
+}
+
+.cloudimg {
+	position: absolute;
+	margin-top: 325px;
+	padding-left: 275px;
+	z-index: 1;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.projects {
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.keyboard {
+	position: absolute;
+	margin-top: 225px;
+	right:500px;
+	z-index: 1;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.string1 {
+	width: 320px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -200px;
+	padding-left: 550px;
+	z-index: 3;
+}
+
+.projectstring {
+	margin-top: 220px;
+	float: left;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.string2 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+	padding-left: 920px;
+}
+
+.aboutstring {
+	float: left;
+	width: 72px;
+	margin-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.string3 {
+	width: 320px;
+	margin-right:auto;
+	margin-left: auto;
+	padding-left: 1000px;
+}
+
+.resumestring {
+	float: right;
+	width: 90px;
+	margin-top: 225px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.projectsnav {
+	width: 320;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.projectbutton {
+	position: absolute;
+	left: 500px;
+	top: 925px;
+	z-index: 1;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: buttonswing 5s ease-in-out forwards infinite;
+    animation: buttonswing 5s ease-in-out forwards infinite;
+}
+
+.aboutbutton {
+	position: absolute;
+	left: 865px;
+	top: 890px;
+	z-index: 1;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: buttonswing 5s ease-in-out forwards infinite;
+    animation: buttonswing 5s ease-in-out forwards infinite;
+}
+
+.resumebutton {
+	position: absolute;
+	left: 1145px;
+	top:900px;
+	z-index: 1;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: buttonswing 5s ease-in-out forwards infinite;
+    animation: buttonswing 5s ease-in-out forwards infinite;
+}
+
+.projtext {
+	font-size: 30px;
+	position: absolute;
+	z-index: 1;
+	top:632px;
+	left: 800px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.W:hover .Wtext{
+		padding-top: 30px;
+		margin-left: -20px;
+		font-size: 18px;
+		color: #000;
+		display: block;
+}
+
+.E:hover .Wtext {
+	font-size: 18px;
+		color: #000;
+		display: block;
+		margin-left: -100px;
+		width: 200px;
+		height: 420px;
+		padding-top: 40px;
+}
+
+.B:hover .Wtext{
+		font-size: 18px;
+		color: #000;
+		display: block;
+		margin-left: -170px;
+		width: 200px;
+		height: 420px;
+		padding-top: 50px;
+}
+
+.C:hover .Wtext {
+		font-size: 18px;
+		color: #000;
+		display: block;
+		margin-left: -248px;
+		width: 200px;
+		height: 420px;
+		margin-top: -30px;
+}
+
+.Java:hover .Wtext {
+		font-size: 18px;
+		color: #000;
+		display: block;
+		margin-left: -230px;
+		width: 200px;
+		height: 420px;
+		margin-top: -180px;
+}
+
+.Python:hover .Wtext {
+		font-size: 18px;
+		color: #000;
+		display: block;
+		margin-left: -30px;
+		width: 200px;
+		height: 420px;
+		margin-top: -220px;
+}
+
+.Wtext {
+	padding-top: 20px;
+	width: 175px;
+	height: 397px;
+	text-align: left;
+	font-size: 18px;
+	top: 405px;
+	left: 800px;
+	display: none;
+}
+
+.blankkey1 {
+	position: absolute;
+	z-index: 1;
+	top: 275px;
+	left: 1022px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.blankkey2 {
+	position: absolute;
+	z-index: 1;
+	top: 571px;
+	left: 948px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.W {
+	background-color: #000;
+	border-radius: 10px;
+	width: 45px;
+	height: 45px;
+	padding-left: 24px;
+	padding-top: 24px;
+	position: absolute;
+	z-index: 1;
+	top: 275px;
+	left: 800px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.E {
+	background-color: #000;
+	border-radius: 10px;
+	width: 40px;
+	height: 45px;
+	padding-left: 29px;
+	padding-top: 24px;
+	position: absolute;
+	z-index: 1;
+	top: 276px;
+	left:874px;
+	transition: all .4s ease-in-out;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.B {
+	background-color: #000;
+	border-radius: 10px;
+	width: 40px;
+	height: 45px;
+	padding-left: 29px;
+	padding-top: 24px;
+	font-size: 18px;
+	color: #dfdfdf;
+	position: absolute;
+	z-index: 1;
+	top: 276px;
+	left:948px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.C {
+	background-color: #000;
+	border-radius: 10px;
+	width: 40px;
+	height: 85px;
+	padding-left: 29px;
+	padding-top: 60px;
+	font-size: 18px;
+	color: #dfdfdf;
+	position: absolute;
+	z-index: 1;
+	top: 348px;
+	left:1022px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.Java {
+	background-color: #000;
+	border-radius: 10px;
+	width: 52px;
+	height: 84px;
+	padding-left: 19px;
+	padding-top: 60px;
+	font-size: 18px;
+	color: #dfdfdf;
+	position: absolute;
+	z-index: 1;
+	top: 497px;
+	left:1020px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.Python {
+	background-color: #000;
+	border-radius: 10px;
+	width: 104px;
+	height: 43px;
+	padding-left: 40px;
+	padding-top: 26px;
+	font-size: 18px;
+	color: #dfdfdf;
+	position: absolute;
+	z-index: 1;
+	top: 572px;
+	left:800px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.menustring {
+	position: absolute;
+	z-index: 1;
+	float: right;
+	margin-top: -10px;
+	left: 1500px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.homecloud{
+	position: absolute;
+	z-index: 1;
+	height:100px;
+	width: 180px;
+	left:1440px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.aboutmenu {
+	position: absolute;
+	z-index: 1;
+	height:100px;
+	width: 100px;
+	left:1495px;
+	top: 95px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.resumemenu {
+	position: absolute;
+	z-index: 1;
+	height:100px;
+	width: 130px;
+	left:1480px;
+	top: 210px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.projectsmenu {
+	position: absolute;
+	z-index: 1;
+	height:100px;
+	width: 180px;
+	left:1450px;
+	top: 210px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.monitor {
+	width: 750;
+	height:560;
+	position: absolute;
+	z-index: 1;
+	left: 580px; 
+	top: 200px;
+}
+
+.page {
+	width: 648px;
+	height: 340px;
+	background-color: #dfdfdf;
+	position: absolute;
+	z-index: 1;
+	border-radius:10px;
+	left: 615px;
+	top: 229px;
+}
+
+.pagetext {
+	color: #000;
+	overflow: auto;
+}
+
+.leftbox{
+	height: 338px;
+	width: 300px;
+	position: relative;
+	float: left;
+}
+
+.rightbox {
+	height: 351px;
+	width: 340px;
+	float: right;
+	position: relative;
+	margin-top: -10px;
+	margin-left: -250px;
+}
+
