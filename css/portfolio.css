@@ -97,6 +97,13 @@ a.button .projectsmenu:hover {
     animation: hoverswing .3s ease-in-out 3 forwards;
 }
 
+a.button .resumemenumid:hover {
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: hoverswing .3s ease-in-out 3 forwards;
+    animation: hoverswing .3s ease-in-out 3 forwards;
+}
+
 .projectnavlink {
 	color: #dfdfdf;
 	font-size: 24px;
@@ -605,6 +612,10 @@ a.button .projectsmenu:hover {
 	z-index: 1;
 	left: 580px; 
 	top: 200px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
 }
 
 .page {
@@ -639,3 +650,28 @@ a.button .projectsmenu:hover {
 	margin-left: -250px;
 }
 
+.about {
+	width: 750px;
+	height: 750px;
+	position: absolute;
+	z-index: 1;
+	left: 600px;
+	top:220px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
+
+.resumemenumid {
+	position: absolute;
+	z-index: 1;
+	height:100px;
+	width: 130px;
+	left:1480px;
+	top: 105px;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 5s ease-in-out forwards infinite;
+    animation: swinging 5s ease-in-out forwards infinite;
+}
